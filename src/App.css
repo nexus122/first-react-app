@@ -28,6 +28,20 @@
   color: #61dafb;
 }
 
+.Btn{
+  border: 2px solid transparent;
+  padding: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: 0.5s transform;
+  min-width: 200px;
+  margin-bottom: 1em;
+  font-weight: 500;
+}
+.Btn:hover{    
+  transform: scale(1.1);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
